@@ -1,47 +1,77 @@
-<!-- Navbar fragment: top nav + main nav -->
 
-<!-- Top Navigation -->
-<nav class="navbar navbar-expand-lg top-nav d-none d-lg-block" id="nav_top">
-        <div class="container text-light">
-            <div class="w-100 d-flex justify-content-between">
-                <div>
-                    <i class="fa fa-envelope mx-2"></i>
-                    <a class="text-light text-decoration-none" href="mailto:info@transicion.com">info@transicion.com</a>
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
-                </div>
-                <p>unete a la transición energética</p>
-                <div class="social-icons">
-                    <a class="text-light" href="#"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="#"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="#"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="#"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
-                </div>
+<!-- TOP NAV -->
+<nav class="navbar navbar-expand-lg d-none d-lg-block" id="nav_top">
+    <div class="container text-light">
+        <div class="w-100 d-flex justify-content-between align-items-center">
+
+            <!-- Contacto -->
+            <div>
+                <i class="fa fa-envelope mx-"></i>
+                <a class="text-light text-decoration-none small" href="mailto:info@transicion.com">
+                    info@transicion.com
+                </a>
+                <i class="fa fa-phone mx-2"></i>
+                <a class="text-light text-decoration-none small" href="tel:010-020-0340">
+                    010-020-0340
+                </a>
             </div>
-        </div>
-    </nav>
 
-    <!-- Main Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow sticky-top bg-white" id="main_navbar">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand logo h2" href="../index.html">
+            <!-- Mensaje -->
+            <div class="small">
+                Únete a la transición energética
+            </div>
+
+            <!-- Iconos Redes -->
+            <div class="social-icons">
+                <a class="text-light" href="#"><i class="fab fa-facebook-f me-2"></i></a>
+                <a class="text-light" href="#"><i class="fab fa-instagram me-2"></i></a>
+                <a class="text-light" href="#"><i class="fab fa-x-twitter me-2"></i></a>
+                <a class="text-light" href="#"><i class="fab fa-youtube me-2"></i></a>
+
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+<!-- MAIN NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm" id="main_navbar">
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <!-- Logo -->
+        <a class="navbar-brand logo h2" href="../index.html">
                 Transición<span class="text-success">Energética</span>
             </a>
 
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Toggle
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main_nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>-->
 
-            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between" id="main_nav">
-                <div class="flex-fill">
-                    <ul class="nav navbar-nav d-flex justify-content-center justify-content-lg-end ms-lg-auto">
-                        <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="pages/datos.html">Datos Históricos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="pages/dashboard.html">Dashboard</a></li>
-                        <li class="nav-item"><a class="nav-link" href="pages/calculadora.html">Calculadora Solar</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                    </ul>
-                </div>
+        <!-- Menú -->
+        <div class="collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between"
+            id="main_nav">
+
+            <div class="flex-fill">
+                <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/datos.html">Datos Históricos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/dashboard.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/calculadora.html">Calculadora</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
