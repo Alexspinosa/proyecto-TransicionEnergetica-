@@ -1,0 +1,108 @@
+==============================
+TRANSICIÓN ENERGÉTICA
+Bosquejo - Página Home
+==============================
+
+1. SECCIÓN HERO
+Título:
+La Transformación del Sistema Energético Global
+
+Subtítulo:
+Un cambio estructural hacia un modelo más limpio, descentralizado y sostenible.
+
+Texto corto:
+La transición energética representa una transformación profunda en la forma en que producimos, distribuimos y consumimos energía. No se trata solo de cambiar combustibles, sino de rediseñar todo el sistema energético mundial.
+
+--------------------------------------------------
+
+2. ¿QUÉ ES LA TRANSICIÓN ENERGÉTICA?
+
+Texto:
+La transición energética es el proceso mediante el cual las economías del mundo están reemplazando progresivamente los combustibles fósiles por fuentes de energía renovables. Este cambio implica innovación tecnológica, nuevas políticas públicas y una transformación en los modelos de consumo.
+
+Puntos clave:
+- Sustitución de fuentes contaminantes.
+- Integración de energías renovables.
+- Modernización de redes eléctricas.
+- Electrificación del transporte.
+
+--------------------------------------------------
+
+3. EL PROBLEMA DEL MODELO ACTUAL
+
+Texto:
+El modelo energético tradicional depende en gran medida de recursos finitos y altamente contaminantes. Esta dependencia genera vulnerabilidad económica, conflictos geopolíticos y crisis ambientales.
+
+Aspectos críticos:
+- Dependencia del petróleo y gas.
+- Volatilidad de precios energéticos.
+- Impacto ambiental y climático.
+- Riesgo para la seguridad energética.
+
+--------------------------------------------------
+
+4. TRANSFORMACIÓN DEL SISTEMA ENERGÉTICO
+
+Texto:
+La transición no solo implica nuevas fuentes de energía, sino una transformación estructural del sistema:
+
+- Generación distribuida.
+- Redes inteligentes (Smart Grids).
+- Almacenamiento energético avanzado.
+- Digitalización del consumo.
+
+Este cambio permite mayor eficiencia, resiliencia y sostenibilidad.
+
+--------------------------------------------------
+
+5. IMPACTO ECONÓMICO Y SOCIAL
+
+Texto:
+La transición energética también impulsa nuevas oportunidades económicas y sociales:
+
+- Creación de empleos verdes.
+- Innovación industrial.
+- Inversión en tecnología limpia.
+- Acceso a energía en zonas rurales.
+
+Se trata de una transformación que impacta tanto el medio ambiente como el desarrollo humano.
+
+--------------------------------------------------
+
+6. INNOVACIÓN TECNOLÓGICA
+
+Texto:
+Las nuevas tecnologías están acelerando el cambio energético:
+
+- Hidrógeno verde.
+- Baterías de alta capacidad.
+- Inteligencia artificial aplicada a eficiencia energética.
+- Movilidad eléctrica.
+
+Estas innovaciones redefinen el futuro del sector energético.
+
+--------------------------------------------------
+
+7. VISIÓN FUTURA
+
+Título:
+El Sistema Energético del 2050
+
+Texto:
+En el futuro, las ciudades serán más inteligentes, los hogares podrán generar su propia energía y los sistemas eléctricos estarán interconectados digitalmente. La transición energética no es solo una tendencia, es una transformación estructural hacia un modelo sostenible y resiliente.
+
+--------------------------------------------------
+
+8. LLAMADO A LA ACCIÓN
+
+Texto:
+La transición energética requiere participación colectiva. Gobiernos, empresas y ciudadanos desempeñan un papel clave en este proceso de transformación.
+
+Botón sugerido:
+Explorar Datos
+Ver Dashboard
+Calcular Mi Impacto
+
+==============================
+FIN DEL BOSQUEJO
+==============================

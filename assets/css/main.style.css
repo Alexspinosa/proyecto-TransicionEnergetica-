@@ -1,0 +1,346 @@
+/* ================================
+    VARIABLES GLOBALES
+================================ */
+:root {
+    --color-primario: #e8a470;
+    --color-secundario: #0d6f6e;
+    --color-fondo: #F2E8DF;
+    --color-texto:#5d545f;
+    --color-acento: #E89058;
+    --color-altermativo:#2f3542;
+    --fuente-principal: 'Proxima Nova'!important;
+    --fuente-secundaria: 'Proxima Nova Regular'!important;
+    --fuente-bold:'Proxima Nova Bold'!important;
+
+}
+
+/* ================================
+    ESTILO BASE
+================================ */
+body {
+    font-family: var(--fuente-principal);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    overflow-x: hidden;
+}
+
+/* ================================
+    TOP NAV
+================================ */
+#nav_top {
+    background-color:#212529;
+    padding: 10px 0;
+}
+
+#nav_top a {
+    transition: color 0.2s ease, transform 0.2s ease;
+    font-size: 14px;
+}
+
+#nav_top a:hover {
+    color: var(--color-primario) !important;
+    transform: translateY(-2px);
+}
+
+/* ================================
+    MAIN NAVBAR
+================================ */
+#main_navbar {
+    background-color: #fff;
+    padding: 0.6rem 0;
+}
+
+
+/* Logo */
+#main_navbar .logo {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--color-secundario);
+}
+
+#main_navbar .logo span {
+    color: var(--color-texto) !important;
+}
+
+/* Links */
+#main_navbar .nav-link {
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1rem !important;
+    color: var(--color-texto);
+    padding: 0.5rem 0.8rem;
+    transition: color 0.2s ease;
+    font-family: var(--fuente-principal);
+
+}
+
+/* Línea animada estilo */
+#main_navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    width: 0;
+    height: 1px;
+    background-color: var(--color-secundario);
+    transition: width 0.3s ease;
+    transform: translateX(-50%);
+}
+
+#main_navbar .nav-link:hover {
+    color: var(--color-secundario);
+}
+
+#main_navbar .nav-link:hover::after {
+    width: 80%;
+}
+
+/* Color principal del efecto */
+:root {
+    --inv: #302e2e; /* puedes cambiar el color */
+}
+
+/* Necesario para que funcionen before y after */
+.from-left {
+    position: relative;
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Líneas animadas */
+.from-left:before,
+.from-left:after {
+    content: "";
+    position: absolute;
+    transition: 0.4s ease;
+}
+
+.from-left:before {
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    border: 1px solid var(--inv);
+    border-left: 0;
+    border-right: 0;
+}
+
+.from-left:after {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--inv);
+    z-index: -1;
+}
+
+/* Hover */
+.from-left:hover:before,
+.from-left:hover:after {
+    width: 100%;
+}
+
+/* Cambio de color texto */
+.from-left:hover {
+    color: #000 !important;
+}
+
+
+/*================================
+    ESTILOS CARROUSEL
+================================*/
+#carousel-main h1 {
+    font-size: 3rem;
+    color: var(--color-secundario);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* ================================
+    ESTILOS BOTON
+================================ */
+.button_main {
+    --offset: 10px;
+    --border-size: 2px;
+    font-size: 0.8rem;
+    display: block;
+    position: relative;
+    padding: 0.7em 0.9em;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+            appearance: none;
+    border: 0;
+    background: transparent;
+    color: #f2f2f2;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+    -webkit-transition: background .8s ease;
+    transition: background .8s ease;
+    }
+    .button_main:hover {
+    background: rgba(100, 0, 0, 0.03);
+    }
+    .button__horizontal, .button__vertical {
+    position: absolute;
+    top: var(--horizontal-offset, 0);
+    right: var(--vertical-offset, 0);
+    bottom: var(--horizontal-offset, 0);
+    left: var(--vertical-offset, 0);
+    -webkit-transition: -webkit-transform .8s ease;
+    transition: -webkit-transform .8s ease;
+    transition: transform .8s ease;
+    transition: transform .8s ease, -webkit-transform .8s ease;
+    will-change: transform;
+    }
+    .button__horizontal::before, .button__vertical::before {
+    content: '';
+    position: absolute;
+    border: inherit;
+    }
+    .button__horizontal {
+    --vertical-offset: calc(var(--offset) * -1);
+    border-top: var(--border-size) solid currentcolor;
+    border-bottom: var(--border-size) solid currentcolor;
+    }
+    .button__horizontal::before {
+    top: calc(var(--vertical-offset) - var(--border-size));
+    bottom: calc(var(--vertical-offset) - var(--border-size));
+    left: calc(var(--vertical-offset) * -1);
+    right: calc(var(--vertical-offset) * -1);
+    }
+    .button_main:hover .button__horizontal {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    }
+    .button__vertical {
+    --horizontal-offset: calc(var(--offset) * -1);
+    border-left: var(--border-size) solid currentcolor;
+    border-right: var(--border-size) solid currentcolor;
+    }
+    .button__vertical::before {
+    top: calc(var(--horizontal-offset) * -1);
+    bottom: calc(var(--horizontal-offset) * -1);
+    left: calc(var(--horizontal-offset) - var(--border-size));
+    right: calc(var(--horizontal-offset) - var(--border-size));
+    }
+    .button_main:hover .button__vertical {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    }
+
+/*================================
+    SECCIONES DE CONTENIDO
+================================*/
+#contenido-problema img:hover{
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+/*================================
+    SECCION CONCEPTOS BASICOS
+================================*/
+
+#conceptos-basicos h2 {
+    color: var(--color-secundario);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#conceptos-basicos img {
+    width: 70%;
+    height: 250px; /* Ajusta este valor a tu gusto */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Estado normal de las fotos dentro de esa sección */
+#conceptos-basicos img {
+    filter: brightness(50%);
+    transition: all 1s ease;
+    cursor: pointer; /* Opcional: para que parezca que se puede clicar */
+}
+
+/* Estado cuando pasas el mouse */
+#conceptos-basicos img:hover {
+    filter: brightness(100%);
+}
+
+    /*================================
+    ESTILOS FOOTER
+================================*/
+/* Estilo general del footer */
+#main_footer {
+    padding: 40px 0; /* un poco más de espacio vertical */
+    font-family: '', var(--fuente-secundaria);
+    background-color: var(--color-altermativo)!important;
+}
+
+/* Títulos dentro del footer */
+#main_footer h2 {
+    color: var(--color-secundario);
+    border-bottom: 2px solid var(--color-secundario);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Texto normal y enlaces */
+#main_footer p,
+#main_footer li a {
+    color: #f2f2f2;
+}
+
+#main_footer li a:hover {
+    color:var(--color-primario); /* efecto hover verde */
+    text-decoration: underline;
+}
+
+/* Inputs del newsletter */
+#main_footer .input-group input {
+    background-color: #343a40;
+    color: #f2f2f2;
+}
+
+#main_footer .input-group input::placeholder {
+    color: #ccc;
+}
+
+/* Botón del newsletter */
+#main_footer .input-group button {
+    background-color: var(--color-secundario);
+    border: none;
+    color: #fff;
+}
+
+#main_footer .input-group button:hover {
+    background-color: var(--color-primario); /* verde más oscuro en hover */
+}
+
+/* Texto final del footer */
+#main_footer p.mb-0 {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+
+
+/* Ajuste Desktop */
+@media (min-width: 992px) {
+    #main_navbar .navbar-nav {
+        max-width: 600px;
+    }
+
+    #main_navbar .nav-link {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.7rem;
+    }
+}
