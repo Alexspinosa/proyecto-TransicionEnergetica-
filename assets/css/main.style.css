@@ -5,12 +5,13 @@
     --color-primario: #e8a470;
     --color-secundario: #0d6f6e;
     --color-fondo: #F2E8DF;
-    --color-texto:#5d545f;
+    --color-texto:#000000;
     --color-acento: #E89058;
     --color-altermativo:#2f3542;
-    --fuente-principal: 'Proxima Nova'!important;
-    --fuente-secundaria: 'Proxima Nova Regular'!important;
-    --fuente-bold:'Proxima Nova Bold'!important;
+    --fuente-principal: 'Proxima Nova';
+    --fuente-secundaria: 'Proxima Nova Regular';
+    --fuente-bold:'Proxima Nova Bold';
+    --inv: var(--color-acento);
 
 }
 
@@ -34,7 +35,7 @@ body {
 
 #nav_top a {
     transition: color 0.2s ease, transform 0.2s ease;
-    font-size: 14px;
+    font-size: 14px !important;
 }
 
 #nav_top a:hover {
@@ -62,17 +63,27 @@ body {
     color: var(--color-texto) !important;
 }
 
+#main_navbar .logo:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.1s ease ;
+}
+
+#main_navbar .logo:hover{
+    overflow: hidden;
+}
+
 /* Links */
 #main_navbar .nav-link {
     position: relative;
     display: inline-block;
-    font-weight: 500;
-    font-size: 1rem !important;
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
     color: var(--color-texto);
     padding: 0.5rem 0.8rem;
     transition: color 0.2s ease;
-    font-family: var(--fuente-principal);
-
+    font-family: var(--fuente-principal) !important;
 }
 
 /* Línea animada estilo */
@@ -83,13 +94,13 @@ body {
     bottom: 5px;
     width: 0;
     height: 1px;
-    background-color: var(--color-secundario);
+    background-color: var(--color-acento)!important;
     transition: width 0.3s ease;
     transform: translateX(-50%);
 }
 
 #main_navbar .nav-link:hover {
-    color: var(--color-secundario);
+    color: var(--color-acento) !important;
 }
 
 #main_navbar .nav-link:hover::after {
@@ -98,7 +109,7 @@ body {
 
 /* Color principal del efecto */
 :root {
-    --inv: #302e2e; /* puedes cambiar el color */
+    --inv: var(--color-acento); /* puedes cambiar el color */
 }
 
 /* Necesario para que funcionen before y after */
@@ -145,7 +156,7 @@ body {
 
 /* Cambio de color texto */
 .from-left:hover {
-    color: #000 !important;
+    color: var(--color-acento)  !important;
 }
 
 
